@@ -27,12 +27,30 @@ form{
     font-size:0.7rem;
 }
 
+form > h1{
+    font-size:0.5rem;
+    
+}
+
+form > p{
+    font-size:0.3rem;
+}
+
 @media(min-width:1024px){
     form{
         width:450px;
         font-size:1.5rem
         
     }
+
+    form > h1{
+    font-size:0.7rem;
+    
+}
+
+form > p{
+    font-size:0.5rem;
+}
     
 }
 
